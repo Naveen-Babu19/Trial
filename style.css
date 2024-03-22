@@ -1,0 +1,438 @@
+*{
+    padding:0%;
+    margin:0%;
+    font-family: sans-serif;
+}
+
+body{
+    height: auto;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+    background-color: #2D2926;
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    box-shadow: 0px -7px 33px black;
+}
+
+#intro-section{
+    height: 49.4vw;
+    width: 100%;
+    background-color: #2D2926;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#portfolioWord{
+    color: #EB7652;
+    font-size: 2rem;
+}
+
+#header-navigation{
+    list-style-type: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-between; 
+}
+
+li{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#main-intro{
+    height: 75%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-content{
+    height: 50%;
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 2%;
+}
+
+.intro-image{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-first-page{
+    background-image: url("Images/front-page.png");
+    height: 70%;
+    width: 100%;
+    background-size: 100% 100%;
+    border-radius: 45px;
+}
+
+#content-starting{
+    color: #EB7652;
+    font-size: 1.5rem;
+}
+
+#name{
+    color: white;
+    font-size: 4rem;
+}
+
+#stream{
+    color: white;
+    font-size: 2.5rem;
+}
+
+#content-head{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#content-para{
+    color:white;
+    font-size: 1.2rem;
+    line-height: 170%;
+}
+
+.about{
+    height: 44.4vw;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    scroll-margin-top: 108px;
+}
+
+.myPhoto{
+    background-image: url("Images/viewPhoto.jpg");
+    height: 55%;
+    width: 55%;
+    border-radius: 200px;
+    background-size: 100% 100%;
+
+}
+
+#main-about{
+    height: 80%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content{
+    height: 100%;
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 2%;
+}
+
+#starting{
+    font-size: 5rem;
+}
+
+#Aboutme{
+    font-size: 28px;
+    letter-spacing: 3px;
+    line-height: 1.9;
+    width: 85%;
+}
+
+#corpId{
+    font-size: 28px;
+}
+
+#corpMail{
+    font-size: 28px;
+}
+
+.brownColor{
+    background-color: #2D2926;
+}
+
+#whole-container{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#tech-skill{
+    font-size: 5rem;
+    color: white;
+}
+
+.one-thing-container{
+    height: 15%;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.languages{
+    font-size: 28px;
+    color: white;
+}
+
+.bar{
+    width: 70%;
+    height: 10%;
+    border: 1px solid white;
+    display: flex;
+}
+
+.knownPercentage{
+    height: 100%;
+    width: 70%;
+    background-color: #EB7652;
+}
+
+.unknownPercentage{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+}
+
+.percent-markings{
+    font-size: 20px;
+    color: white;
+}
+
+.js-percent-known{
+    width: 75%;
+}
+
+.js-percent-unknown{
+    width: 25%;
+}
+
+#percent-cotainer-whole{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#language-container{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#percentage-container{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.java-percent-known{
+    width: 80%;
+}
+
+.java-percent-unknown{
+    width: 20%;
+}
+
+.footer{
+    height: 15vw;
+}
+
+#Contact{
+    height: 50%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.white{
+    color: white;
+    font-size: 28px;
+}
+
+.small{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+
+.container{
+    height: 80%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.languages-project{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.font-languages{
+    font-size: 28px;
+    color: #EB7652;
+}
+
+.project-container{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#project-text{
+    font-size: 42px;
+}
+
+.black-text{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.header-bar{
+    height: 20%;
+}
+
+.projectShower{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 35%;
+    width: 17%;
+    display: flex;
+}
+
+#Scratch1{
+    background-image: url("Images/scratch.png");
+
+}
+
+#HTML1{
+    background-image: url("Images/Iconic.png");
+}
+
+#HTML2{
+    background-image: url("Images/Venue.png");
+}
+
+#HTML3{
+    background-image: url("Images/Walmart.png");
+    width: 23%;
+}
+
+#JS1{
+    background-image: url("Images/RockPaperScissor.png");
+}
+
+#JS2{
+    background-image: url("Images/Knoword.png");
+    width: 20%;
+}
+
+#JAVA1{
+    background-image: url("Images/Java-01.svg");
+    background-color: #2D2926;
+}
+
+#JAVA2{
+    background-image: url("Images/Java-01.svg");
+    background-color: #2D2926;
+}
+
+#JAVA3{
+    background-image: url("Images/Java-01.svg");
+    background-color: #2D2926;
+}
+
+.project-name{
+    height: 100%;
+    width: 100%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    text-align: justify;
+}
+
+.projectShower:hover{
+    text-decoration: none;
+}
+
+.project-name:hover{
+    opacity: 1;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    font-size: 25px;
+}
+
+.java-projects{
+   background-size: 75% 75%;
+   background-position: 46% 50%;
+}
